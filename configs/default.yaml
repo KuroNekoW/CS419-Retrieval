@@ -1,0 +1,27 @@
+models:
+  M1: {scorer: vsm, analyzer: word}
+  M2: {scorer: bm25, analyzer: word}
+  M3: {scorer: vsm, analyzer: char}
+  M4: {scorer: bm25, analyzer: char}
+
+# Grid order breaks dev MAP ties, preferring defaults.
+E0:
+  split: train
+  metric: MAP
+  min_df: [1, 2]
+  max_df_ratio: 1.0
+  k1: [1.2, 1.5]
+  b: [0.75, 0.5]
+
+test:
+  split: test
+  seeds: [42, 43, 44, 45, 46]
+  E2_rates: [0.1, 0.2, 0.3, 0.5]
+  E3_types: [deletion, insertion, substitution, transposition]
+  E3_rate: 0.2
+  E4_fixed_tokens: [1, 2]
+  E4_min_eligible_tokens: 2
+
+evaluation:
+  top_k: null
+  metric_cutoff: 10

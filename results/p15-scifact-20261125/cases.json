@@ -1,0 +1,2618 @@
+{
+  "selection": "M2, mixed 20%, seed 42. Up to three most negative and three largest nonnegative AP changes; qid breaks ties.",
+  "cases": [
+    {
+      "qid": "536",
+      "group": "decrease",
+      "variant_id": "test/mixed-rate0.2-seed42/536",
+      "original": "Hypocretin neurones induce panicprone state in rats.",
+      "noisy": "Hypccretin neurones induce panicprone state in rats.",
+      "edits": [
+        {
+          "token_index": 0,
+          "original_token": "Hypocretin",
+          "modified_token": "Hypccretin",
+          "operation": "substitution",
+          "character_position": 3,
+          "matches_corpus_word": false
+        }
+      ],
+      "relevant_doc_ids": [
+        "16056514"
+      ],
+      "word_AP_change": -0.967741935483871,
+      "models": {
+        "M2": {
+          "lost_terms": [
+            "hypocretin"
+          ],
+          "retained_terms": [
+            "in",
+            "induce",
+            "neurones",
+            "rats",
+            "state"
+          ],
+          "added_terms": [],
+          "clean": {
+            "AP": 1.0,
+            "OOV": [
+              "panicprone"
+            ],
+            "top5": [
+              {
+                "doc_id": "16056514",
+                "rank": 1,
+                "score": 15.58246930375062,
+                "title": "A KEY ROLE FOR OREXIN IN PANIC ANXIETY",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "24186125",
+                "rank": 2,
+                "score": 15.171218410105254,
+                "title": "The changes of antioxidant defense system caused by quercetin administration do not lead to DNA damage and apoptosis in the spleen and bone marrow cells of rats.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12130690",
+                "rank": 3,
+                "score": 14.09031607900684,
+                "title": "Involvement of transient receptor potential vanilloid 1 receptors in protease-activated receptor-2-induced joint inflammation and nociception.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "9288638",
+                "rank": 4,
+                "score": 13.359121271022069,
+                "title": "Vascular responsiveness in isolated perfused kidneys of diabetic hypertensive rats.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23746332",
+                "rank": 5,
+                "score": 12.38191104677831,
+                "title": "Fast calcium and voltage-sensitive dye imaging in enteric neurones reveal calcium peaks associated with single action potential discharge.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "16056514": 1
+            }
+          },
+          "noisy": {
+            "AP": 0.03225806451612903,
+            "OOV": [
+              "hypccretin",
+              "panicprone"
+            ],
+            "top5": [
+              {
+                "doc_id": "24186125",
+                "rank": 1,
+                "score": 15.171218410105254,
+                "title": "The changes of antioxidant defense system caused by quercetin administration do not lead to DNA damage and apoptosis in the spleen and bone marrow cells of rats.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12130690",
+                "rank": 2,
+                "score": 14.09031607900684,
+                "title": "Involvement of transient receptor potential vanilloid 1 receptors in protease-activated receptor-2-induced joint inflammation and nociception.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "9288638",
+                "rank": 3,
+                "score": 13.359121271022069,
+                "title": "Vascular responsiveness in isolated perfused kidneys of diabetic hypertensive rats.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23746332",
+                "rank": 4,
+                "score": 12.38191104677831,
+                "title": "Fast calcium and voltage-sensitive dye imaging in enteric neurones reveal calcium peaks associated with single action potential discharge.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "9194077",
+                "rank": 5,
+                "score": 11.914857083758362,
+                "title": "Effects of Hypoxia and Oxidative Stress on Expression of Neprilysin in Human Neuroblastoma Cells and Rat Cortical Neurones and Astrocytes",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "16056514": 31
+            }
+          }
+        },
+        "M4": {
+          "lost_terms": [
+            "hypo",
+            "hypoc",
+            "ocr",
+            "ocre",
+            "ocret",
+            "poc",
+            "pocr",
+            "pocre",
+            "ypo",
+            "ypoc",
+            "ypocr"
+          ],
+          "retained_terms": [
+            "ani",
+            "anic",
+            "ate",
+            "ats",
+            "cpr",
+            "cpro",
+            "cre",
+            "cret",
+            "creti",
+            "duc",
+            "duce",
+            "eti",
+            "etin",
+            "eur",
+            "euro",
+            "euron",
+            "hyp",
+            "icp",
+            "icpr",
+            "icpro",
+            "ind",
+            "indu",
+            "induc",
+            "ndu",
+            "nduc",
+            "nduce",
+            "nes",
+            "neu",
+            "neur",
+            "neuro",
+            "nic",
+            "one",
+            "ones",
+            "pan",
+            "pani",
+            "panic",
+            "pro",
+            "pron",
+            "prone",
+            "rat",
+            "rats",
+            "ret",
+            "reti",
+            "retin",
+            "ron",
+            "rone",
+            "rones",
+            "short:in",
+            "sta",
+            "stat",
+            "state",
+            "tat",
+            "tate",
+            "tin",
+            "uce",
+            "uro",
+            "uron",
+            "urone"
+          ],
+          "added_terms": [
+            "ccr",
+            "ccre",
+            "ccret",
+            "pcc"
+          ],
+          "clean": {
+            "AP": 1.0,
+            "OOV": [
+              "nicp",
+              "anicp",
+              "nicpr",
+              "cpron"
+            ],
+            "top5": [
+              {
+                "doc_id": "16056514",
+                "rank": 1,
+                "score": 193.8462767340239,
+                "title": "A KEY ROLE FOR OREXIN IN PANIC ANXIETY",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "9194077",
+                "rank": 2,
+                "score": 91.74824602764814,
+                "title": "Effects of Hypoxia and Oxidative Stress on Expression of Neprilysin in Human Neuroblastoma Cells and Rat Cortical Neurones and Astrocytes",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "14782049",
+                "rank": 3,
+                "score": 90.86284453349431,
+                "title": "In vivo effect of chronic hypoxia on the neurochemical profile of the developing rat hippocampus.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23929297",
+                "rank": 4,
+                "score": 82.57850533261862,
+                "title": "Ghrelin secretion stimulated by {beta}1-adrenergic receptors in cultured ghrelinoma cells and in fasted mice.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "7840442",
+                "rank": 5,
+                "score": 81.13347182872192,
+                "title": "Multisite optical recording of excitability in the enteric nervous system.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "16056514": 1
+            }
+          },
+          "noisy": {
+            "AP": 1.0,
+            "OOV": [
+              "ypc",
+              "hypc",
+              "ypcc",
+              "pccr",
+              "hypcc",
+              "ypccr",
+              "pccre",
+              "nicp",
+              "anicp",
+              "nicpr",
+              "cpron"
+            ],
+            "top5": [
+              {
+                "doc_id": "16056514",
+                "rank": 1,
+                "score": 126.33667453599367,
+                "title": "A KEY ROLE FOR OREXIN IN PANIC ANXIETY",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "9194077",
+                "rank": 2,
+                "score": 83.09690907984589,
+                "title": "Effects of Hypoxia and Oxidative Stress on Expression of Neprilysin in Human Neuroblastoma Cells and Rat Cortical Neurones and Astrocytes",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23929297",
+                "rank": 3,
+                "score": 82.57850533261862,
+                "title": "Ghrelin secretion stimulated by {beta}1-adrenergic receptors in cultured ghrelinoma cells and in fasted mice.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "7840442",
+                "rank": 4,
+                "score": 81.13347182872192,
+                "title": "Multisite optical recording of excitability in the enteric nervous system.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12130690",
+                "rank": 5,
+                "score": 76.45149787654309,
+                "title": "Involvement of transient receptor potential vanilloid 1 receptors in protease-activated receptor-2-induced joint inflammation and nociception.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "16056514": 1
+            }
+          }
+        }
+      },
+      "char_nonpositive_hit_overlap": {
+        "doc_id": "9194077",
+        "rank": 2,
+        "shared_char_terms": [
+          "ani",
+          "ate",
+          "cre",
+          "cret",
+          "duc",
+          "duce",
+          "eur",
+          "euro",
+          "euron",
+          "hyp",
+          "nes",
+          "neu",
+          "neur",
+          "neuro",
+          "one",
+          "ones",
+          "pro",
+          "rat",
+          "ret",
+          "ron",
+          "rone",
+          "rones",
+          "short:in",
+          "sta",
+          "uce",
+          "uro",
+          "uron",
+          "urone"
+        ]
+      }
+    },
+    {
+      "qid": "237",
+      "group": "decrease",
+      "variant_id": "test/mixed-rate0.2-seed42/237",
+      "original": "Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.",
+      "noisy": "Cells lacking clpC have a dafect in sporulatmion efficiency in Bacillus subtilis.",
+      "edits": [
+        {
+          "token_index": 5,
+          "original_token": "defect",
+          "modified_token": "dafect",
+          "operation": "substitution",
+          "character_position": 1,
+          "matches_corpus_word": false
+        },
+        {
+          "token_index": 7,
+          "original_token": "sporulation",
+          "modified_token": "sporulatmion",
+          "operation": "insertion",
+          "character_position": 8,
+          "matches_corpus_word": false
+        }
+      ],
+      "relevant_doc_ids": [
+        "4942718"
+      ],
+      "word_AP_change": -0.9090909090909091,
+      "models": {
+        "M2": {
+          "lost_terms": [
+            "defect",
+            "sporulation"
+          ],
+          "retained_terms": [
+            "a",
+            "bacillus",
+            "cells",
+            "clpc",
+            "efficiency",
+            "have",
+            "in",
+            "lacking",
+            "subtilis"
+          ],
+          "added_terms": [],
+          "clean": {
+            "AP": 1.0,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "4942718",
+                "rank": 1,
+                "score": 30.899839551381994,
+                "title": "High-Throughput Genetic Screens Identify a Large and Diverse Collection of New Sporulation Genes in Bacillus subtilis",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "34386619",
+                "rank": 2,
+                "score": 30.19640696965917,
+                "title": "The first gene of the Bacillus subtilis clpC operon, ctsR, encodes a negative regulator of its own operon and other class III heat shock genes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12881593",
+                "rank": 3,
+                "score": 28.291834253663446,
+                "title": "Fine-tuning in regulation of Clp protein content in Bacillus subtilis.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "24706198",
+                "rank": 4,
+                "score": 19.359375894292935,
+                "title": "A minimal Tat system from a gram-positive organism: a bifunctional TatA subunit participates in discrete TatAC and TatA complexes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12824568",
+                "rank": 5,
+                "score": 18.98665141894547,
+                "title": "From Cell Differentiation to Cell Collectives: Bacillus subtilis Uses Division of Labor to Migrate",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "4942718": 1
+            }
+          },
+          "noisy": {
+            "AP": 0.09090909090909091,
+            "OOV": [
+              "dafect",
+              "sporulatmion"
+            ],
+            "top5": [
+              {
+                "doc_id": "34386619",
+                "rank": 1,
+                "score": 30.19640696965917,
+                "title": "The first gene of the Bacillus subtilis clpC operon, ctsR, encodes a negative regulator of its own operon and other class III heat shock genes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12881593",
+                "rank": 2,
+                "score": 28.291834253663446,
+                "title": "Fine-tuning in regulation of Clp protein content in Bacillus subtilis.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "24706198",
+                "rank": 3,
+                "score": 19.359375894292935,
+                "title": "A minimal Tat system from a gram-positive organism: a bifunctional TatA subunit participates in discrete TatAC and TatA complexes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "12824568",
+                "rank": 4,
+                "score": 18.98665141894547,
+                "title": "From Cell Differentiation to Cell Collectives: Bacillus subtilis Uses Division of Labor to Migrate",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "17416520",
+                "rank": 5,
+                "score": 17.48532843225624,
+                "title": "Genome-wide identification of genes directly regulated by the pleiotropic transcription factor Spx in Bacillus subtilis",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "4942718": 11
+            }
+          }
+        },
+        "M4": {
+          "lost_terms": [
+            "ati",
+            "atio",
+            "ation",
+            "def",
+            "defe",
+            "defec",
+            "efe",
+            "efec",
+            "efect",
+            "lati",
+            "latio",
+            "tio",
+            "tion",
+            "ulati"
+          ],
+          "retained_terms": [
+            "aci",
+            "acil",
+            "acill",
+            "ack",
+            "acki",
+            "ackin",
+            "ave",
+            "bac",
+            "baci",
+            "bacil",
+            "bti",
+            "btil",
+            "btili",
+            "cel",
+            "cell",
+            "cells",
+            "cie",
+            "cien",
+            "cienc",
+            "cil",
+            "cill",
+            "cillu",
+            "cki",
+            "ckin",
+            "cking",
+            "clp",
+            "clpc",
+            "ect",
+            "eff",
+            "effi",
+            "effic",
+            "ell",
+            "ells",
+            "enc",
+            "ency",
+            "fec",
+            "fect",
+            "ffi",
+            "ffic",
+            "ffici",
+            "fic",
+            "fici",
+            "ficie",
+            "hav",
+            "have",
+            "ici",
+            "icie",
+            "icien",
+            "ien",
+            "ienc",
+            "iency",
+            "ili",
+            "ilis",
+            "ill",
+            "illu",
+            "illus",
+            "ing",
+            "ion",
+            "kin",
+            "king",
+            "lac",
+            "lack",
+            "lacki",
+            "lat",
+            "lis",
+            "lls",
+            "llu",
+            "llus",
+            "lpc",
+            "lus",
+            "ncy",
+            "oru",
+            "orul",
+            "orula",
+            "por",
+            "poru",
+            "porul",
+            "rul",
+            "rula",
+            "rulat",
+            "short:a",
+            "short:in",
+            "spo",
+            "spor",
+            "sporu",
+            "sub",
+            "subt",
+            "subti",
+            "til",
+            "tili",
+            "tilis",
+            "ubt",
+            "ubti",
+            "ubtil",
+            "ula",
+            "ulat"
+          ],
+          "added_terms": [
+            "afe",
+            "atm",
+            "daf",
+            "latm",
+            "mio",
+            "tmi"
+          ],
+          "clean": {
+            "AP": 1.0,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "4942718",
+                "rank": 1,
+                "score": 297.4052518867873,
+                "title": "High-Throughput Genetic Screens Identify a Large and Diverse Collection of New Sporulation Genes in Bacillus subtilis",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "12881593",
+                "rank": 2,
+                "score": 216.8760859246732,
+                "title": "Fine-tuning in regulation of Clp protein content in Bacillus subtilis.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "24706198",
+                "rank": 3,
+                "score": 207.57255715611424,
+                "title": "A minimal Tat system from a gram-positive organism: a bifunctional TatA subunit participates in discrete TatAC and TatA complexes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "34386619",
+                "rank": 4,
+                "score": 199.56333669901994,
+                "title": "The first gene of the Bacillus subtilis clpC operon, ctsR, encodes a negative regulator of its own operon and other class III heat shock genes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "17416520",
+                "rank": 5,
+                "score": 183.33736057627183,
+                "title": "Genome-wide identification of genes directly regulated by the pleiotropic transcription factor Spx in Bacillus subtilis",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "4942718": 1
+            }
+          },
+          "noisy": {
+            "AP": 1.0,
+            "OOV": [
+              "dafe",
+              "afec",
+              "dafec",
+              "afect",
+              "atmi",
+              "tmio",
+              "mion",
+              "ulatm",
+              "latmi",
+              "atmio",
+              "tmion"
+            ],
+            "top5": [
+              {
+                "doc_id": "4942718",
+                "rank": 1,
+                "score": 273.7358969530372,
+                "title": "High-Throughput Genetic Screens Identify a Large and Diverse Collection of New Sporulation Genes in Bacillus subtilis",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "12881593",
+                "rank": 2,
+                "score": 213.14557535945968,
+                "title": "Fine-tuning in regulation of Clp protein content in Bacillus subtilis.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "24706198",
+                "rank": 3,
+                "score": 207.3425768539078,
+                "title": "A minimal Tat system from a gram-positive organism: a bifunctional TatA subunit participates in discrete TatAC and TatA complexes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "34386619",
+                "rank": 4,
+                "score": 196.36444096886865,
+                "title": "The first gene of the Bacillus subtilis clpC operon, ctsR, encodes a negative regulator of its own operon and other class III heat shock genes.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "27373088",
+                "rank": 5,
+                "score": 177.28640162823842,
+                "title": "Substrate requirements for ErmC' methyltransferase activity.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "4942718": 1
+            }
+          }
+        }
+      },
+      "char_nonpositive_hit_overlap": {
+        "doc_id": "12881593",
+        "rank": 2,
+        "shared_char_terms": [
+          "aci",
+          "acil",
+          "acill",
+          "bac",
+          "baci",
+          "bacil",
+          "bti",
+          "btil",
+          "btili",
+          "cel",
+          "cell",
+          "cells",
+          "cil",
+          "cill",
+          "cillu",
+          "clp",
+          "clpc",
+          "ell",
+          "ells",
+          "fic",
+          "ili",
+          "ilis",
+          "ill",
+          "illu",
+          "illus",
+          "ing",
+          "ion",
+          "lat",
+          "lis",
+          "lls",
+          "llu",
+          "llus",
+          "lpc",
+          "lus",
+          "short:a",
+          "short:in",
+          "sub",
+          "subt",
+          "subti",
+          "til",
+          "tili",
+          "tilis",
+          "ubt",
+          "ubti",
+          "ubtil",
+          "ula",
+          "ulat"
+        ]
+      }
+    },
+    {
+      "qid": "692",
+      "group": "decrease",
+      "variant_id": "test/mixed-rate0.2-seed42/692",
+      "original": "Leuko-increased blood increases infectious complications in red blood cell transfusion.",
+      "noisy": "Leuko-inceased blood increases infectious complications in led blood cell transfusion.",
+      "edits": [
+        {
+          "token_index": 1,
+          "original_token": "increased",
+          "modified_token": "inceased",
+          "operation": "deletion",
+          "character_position": 3,
+          "matches_corpus_word": false
+        },
+        {
+          "token_index": 7,
+          "original_token": "red",
+          "modified_token": "led",
+          "operation": "substitution",
+          "character_position": 0,
+          "matches_corpus_word": true
+        }
+      ],
+      "relevant_doc_ids": [
+        "24088502"
+      ],
+      "word_AP_change": -0.8333333333333334,
+      "models": {
+        "M2": {
+          "lost_terms": [
+            "increased",
+            "red"
+          ],
+          "retained_terms": [
+            "blood",
+            "cell",
+            "complications",
+            "in",
+            "increases",
+            "infectious",
+            "transfusion"
+          ],
+          "added_terms": [
+            "led"
+          ],
+          "clean": {
+            "AP": 1.0,
+            "OOV": [
+              "leuko"
+            ],
+            "top5": [
+              {
+                "doc_id": "24088502",
+                "rank": 1,
+                "score": 21.04779987621796,
+                "title": "Clinical outcomes following institution of the Canadian universal leukoreduction program for red blood cell transfusions.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "23203102",
+                "rank": 2,
+                "score": 20.21737982597184,
+                "title": "Transmission of sporadic Creutzfeldt-Jakob disease by blood transfusion: risk factor or possible biases.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "36288526",
+                "rank": 3,
+                "score": 19.459657509467796,
+                "title": "Effect of hydroxyethyl starch on bleeding after cardiopulmonary bypass: a meta-analysis of randomized trials.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "27049238",
+                "rank": 4,
+                "score": 18.34646878201806,
+                "title": "Large deformation of red blood cell ghosts in a simple shear flow.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "11349166",
+                "rank": 5,
+                "score": 16.60668081893273,
+                "title": "Lack of evidence of transfusion transmission of Creutzfeldt-Jakob disease in a US surveillance study.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "24088502": 1
+            }
+          },
+          "noisy": {
+            "AP": 0.16666666666666666,
+            "OOV": [
+              "leuko",
+              "inceased"
+            ],
+            "top5": [
+              {
+                "doc_id": "23203102",
+                "rank": 1,
+                "score": 20.21737982597184,
+                "title": "Transmission of sporadic Creutzfeldt-Jakob disease by blood transfusion: risk factor or possible biases.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23124332",
+                "rank": 2,
+                "score": 17.456909022223677,
+                "title": "Prion-induced amyloid heart disease with high blood infectivity in transgenic mice.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "11349166",
+                "rank": 3,
+                "score": 16.60668081893273,
+                "title": "Lack of evidence of transfusion transmission of Creutzfeldt-Jakob disease in a US surveillance study.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3698758",
+                "rank": 4,
+                "score": 14.099599193681343,
+                "title": "Hepatitis C virus and blood transfusion: past and present risks.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "2488880",
+                "rank": 5,
+                "score": 14.027384510814851,
+                "title": "Gender-dependent differences in outcome after the treatment of infection in hospitalized patients.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "24088502": 6
+            }
+          }
+        },
+        "M4": {
+          "lost_terms": [
+            "red"
+          ],
+          "retained_terms": [
+            "ans",
+            "ansf",
+            "ansfu",
+            "ase",
+            "ased",
+            "ases",
+            "ati",
+            "atio",
+            "ation",
+            "blo",
+            "bloo",
+            "blood",
+            "cat",
+            "cati",
+            "catio",
+            "cel",
+            "cell",
+            "com",
+            "comp",
+            "compl",
+            "cre",
+            "crea",
+            "creas",
+            "cti",
+            "ctio",
+            "ctiou",
+            "eas",
+            "ease",
+            "eased",
+            "eases",
+            "ect",
+            "ecti",
+            "ectio",
+            "ell",
+            "euk",
+            "euko",
+            "fec",
+            "fect",
+            "fecti",
+            "fus",
+            "fusi",
+            "fusio",
+            "ica",
+            "icat",
+            "icati",
+            "inc",
+            "incr",
+            "incre",
+            "inf",
+            "infe",
+            "infec",
+            "ion",
+            "ions",
+            "iou",
+            "ious",
+            "leu",
+            "leuk",
+            "leuko",
+            "lic",
+            "lica",
+            "licat",
+            "loo",
+            "lood",
+            "mpl",
+            "mpli",
+            "mplic",
+            "ncr",
+            "ncre",
+            "ncrea",
+            "nfe",
+            "nfec",
+            "nfect",
+            "nsf",
+            "nsfu",
+            "nsfus",
+            "omp",
+            "ompl",
+            "ompli",
+            "ons",
+            "ood",
+            "ous",
+            "pli",
+            "plic",
+            "plica",
+            "ran",
+            "rans",
+            "ransf",
+            "rea",
+            "reas",
+            "rease",
+            "sed",
+            "ses",
+            "sfu",
+            "sfus",
+            "sfusi",
+            "short:in",
+            "sio",
+            "sion",
+            "tio",
+            "tion",
+            "tions",
+            "tiou",
+            "tious",
+            "tra",
+            "tran",
+            "trans",
+            "uko",
+            "usi",
+            "usio",
+            "usion"
+          ],
+          "added_terms": [
+            "cea",
+            "ceas",
+            "cease",
+            "ince",
+            "led",
+            "nce",
+            "ncea"
+          ],
+          "clean": {
+            "AP": 1.0,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "24088502",
+                "rank": 1,
+                "score": 225.8718211438362,
+                "title": "Clinical outcomes following institution of the Canadian universal leukoreduction program for red blood cell transfusions.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "2488880",
+                "rank": 2,
+                "score": 160.0146717007032,
+                "title": "Gender-dependent differences in outcome after the treatment of infection in hospitalized patients.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23203102",
+                "rank": 3,
+                "score": 158.46969090331666,
+                "title": "Transmission of sporadic Creutzfeldt-Jakob disease by blood transfusion: risk factor or possible biases.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3698758",
+                "rank": 4,
+                "score": 145.51142118567785,
+                "title": "Hepatitis C virus and blood transfusion: past and present risks.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "11349166",
+                "rank": 5,
+                "score": 143.00227378642924,
+                "title": "Lack of evidence of transfusion transmission of Creutzfeldt-Jakob disease in a US surveillance study.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "24088502": 1
+            }
+          },
+          "noisy": {
+            "AP": 1.0,
+            "OOV": [
+              "incea",
+              "nceas"
+            ],
+            "top5": [
+              {
+                "doc_id": "24088502",
+                "rank": 1,
+                "score": 226.68219665398155,
+                "title": "Clinical outcomes following institution of the Canadian universal leukoreduction program for red blood cell transfusions.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "11349166",
+                "rank": 2,
+                "score": 170.15643087458704,
+                "title": "Lack of evidence of transfusion transmission of Creutzfeldt-Jakob disease in a US surveillance study.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "2488880",
+                "rank": 3,
+                "score": 159.81990237572853,
+                "title": "Gender-dependent differences in outcome after the treatment of infection in hospitalized patients.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "23203102",
+                "rank": 4,
+                "score": 158.4802212564073,
+                "title": "Transmission of sporadic Creutzfeldt-Jakob disease by blood transfusion: risk factor or possible biases.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3698758",
+                "rank": 5,
+                "score": 151.0869590973587,
+                "title": "Hepatitis C virus and blood transfusion: past and present risks.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "24088502": 1
+            }
+          }
+        }
+      },
+      "char_nonpositive_hit_overlap": {
+        "doc_id": "11349166",
+        "rank": 2,
+        "shared_char_terms": [
+          "ans",
+          "ansf",
+          "ansfu",
+          "ase",
+          "ased",
+          "ati",
+          "atio",
+          "ation",
+          "blo",
+          "bloo",
+          "blood",
+          "cea",
+          "ceas",
+          "cease",
+          "com",
+          "comp",
+          "cre",
+          "eas",
+          "ease",
+          "eased",
+          "fus",
+          "fusi",
+          "fusio",
+          "ica",
+          "inc",
+          "ince",
+          "inf",
+          "ion",
+          "ions",
+          "led",
+          "loo",
+          "lood",
+          "nce",
+          "nsf",
+          "nsfu",
+          "nsfus",
+          "omp",
+          "ons",
+          "ood",
+          "ran",
+          "rans",
+          "ransf",
+          "rea",
+          "sed",
+          "sfu",
+          "sfus",
+          "sfusi",
+          "short:in",
+          "sio",
+          "sion",
+          "tio",
+          "tion",
+          "tra",
+          "tran",
+          "trans",
+          "usi",
+          "usio",
+          "usion"
+        ]
+      }
+    },
+    {
+      "qid": "54",
+      "group": "stable_or_improved",
+      "variant_id": "test/mixed-rate0.2-seed42/54",
+      "original": "AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+      "noisy": "AMP-cativated protein kiqase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+      "edits": [
+        {
+          "token_index": 1,
+          "original_token": "activated",
+          "modified_token": "cativated",
+          "operation": "transposition",
+          "character_position": 0,
+          "matches_corpus_word": false
+        },
+        {
+          "token_index": 3,
+          "original_token": "kinase",
+          "modified_token": "kiqase",
+          "operation": "substitution",
+          "character_position": 2,
+          "matches_corpus_word": false
+        }
+      ],
+      "relevant_doc_ids": [
+        "49556906"
+      ],
+      "word_AP_change": 0.8888888888888888,
+      "models": {
+        "M2": {
+          "lost_terms": [
+            "activated",
+            "kinase"
+          ],
+          "retained_terms": [
+            "activation",
+            "amp",
+            "ampk",
+            "fibrosis",
+            "in",
+            "increases",
+            "inflammation",
+            "lungs",
+            "protein",
+            "related",
+            "the"
+          ],
+          "added_terms": [],
+          "clean": {
+            "AP": 0.1111111111111111,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "3973445",
+                "rank": 1,
+                "score": 34.07713915661341,
+                "title": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "32408470",
+                "rank": 2,
+                "score": 33.12813660562509,
+                "title": "Activation of AMPKα2 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "9899292",
+                "rank": 3,
+                "score": 32.63716434830339,
+                "title": "Role of AMP-activated protein kinase in mechanism of metformin action.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "9752604",
+                "rank": 4,
+                "score": 32.25874101613451,
+                "title": "Activated AMPK boosts the Nrf2/HO-1 signaling axis—A role for the unfolded protein response",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3419709",
+                "rank": 5,
+                "score": 31.555170585537017,
+                "title": "Treatment of nonalcoholic fatty liver disease: role of AMPK.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "49556906": 9
+            }
+          },
+          "noisy": {
+            "AP": 1.0,
+            "OOV": [
+              "cativated",
+              "kiqase"
+            ],
+            "top5": [
+              {
+                "doc_id": "49556906",
+                "rank": 1,
+                "score": 29.43044583544258,
+                "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "3973445",
+                "rank": 2,
+                "score": 25.04181367662746,
+                "title": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "9899292",
+                "rank": 3,
+                "score": 24.810059467004077,
+                "title": "Role of AMP-activated protein kinase in mechanism of metformin action.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3419709",
+                "rank": 4,
+                "score": 24.384816184427237,
+                "title": "Treatment of nonalcoholic fatty liver disease: role of AMPK.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "32408470",
+                "rank": 5,
+                "score": 23.64654474911797,
+                "title": "Activation of AMPKα2 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "49556906": 1
+            }
+          }
+        },
+        "M4": {
+          "lost_terms": [
+            "ina",
+            "inas",
+            "inase",
+            "kin",
+            "kina",
+            "kinas",
+            "nas",
+            "nase"
+          ],
+          "retained_terms": [
+            "act",
+            "acti",
+            "activ",
+            "amm",
+            "amma",
+            "ammat",
+            "amp",
+            "ampk",
+            "ase",
+            "ases",
+            "ate",
+            "ated",
+            "ati",
+            "atio",
+            "ation",
+            "bro",
+            "bros",
+            "brosi",
+            "cre",
+            "crea",
+            "creas",
+            "cti",
+            "ctiv",
+            "ctiva",
+            "eas",
+            "ease",
+            "eases",
+            "ein",
+            "ela",
+            "elat",
+            "elate",
+            "fib",
+            "fibr",
+            "fibro",
+            "fla",
+            "flam",
+            "flamm",
+            "ibr",
+            "ibro",
+            "ibros",
+            "inc",
+            "incr",
+            "incre",
+            "inf",
+            "infl",
+            "infla",
+            "ion",
+            "iva",
+            "ivat",
+            "ivate",
+            "ivati",
+            "lam",
+            "lamm",
+            "lamma",
+            "lat",
+            "late",
+            "lated",
+            "lun",
+            "lung",
+            "lungs",
+            "mat",
+            "mati",
+            "matio",
+            "mma",
+            "mmat",
+            "mmati",
+            "mpk",
+            "ncr",
+            "ncre",
+            "ncrea",
+            "nfl",
+            "nfla",
+            "nflam",
+            "ngs",
+            "osi",
+            "osis",
+            "ote",
+            "otei",
+            "otein",
+            "pro",
+            "prot",
+            "prote",
+            "rea",
+            "reas",
+            "rease",
+            "rel",
+            "rela",
+            "relat",
+            "ros",
+            "rosi",
+            "rosis",
+            "rot",
+            "rote",
+            "rotei",
+            "ses",
+            "short:in",
+            "sis",
+            "ted",
+            "tei",
+            "tein",
+            "the",
+            "tio",
+            "tion",
+            "tiv",
+            "tiva",
+            "tivat",
+            "ung",
+            "ungs",
+            "vat",
+            "vate",
+            "vated",
+            "vati",
+            "vatio"
+          ],
+          "added_terms": [
+            "ativ",
+            "ativa",
+            "cat",
+            "cati",
+            "cativ"
+          ],
+          "clean": {
+            "AP": 0.07692307692307693,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "1800734",
+                "rank": 1,
+                "score": 220.416612569226,
+                "title": "CXCR2 mediates NADPH oxidase–independent neutrophil extracellular trap formation in cystic fibrosis airway inflammation",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3973445",
+                "rank": 2,
+                "score": 210.78592814073804,
+                "title": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "5172048",
+                "rank": 3,
+                "score": 209.45404177907878,
+                "title": "Focal adhesion kinase links mechanical force to skin fibrosis via inflammatory signaling",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "15381976",
+                "rank": 4,
+                "score": 203.20675626949847,
+                "title": "Morin Attenuates Ovalbumin-Induced Airway Inflammation by Modulating Oxidative Stress-Responsive MAPK Signaling.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3701541",
+                "rank": 5,
+                "score": 190.00811427835393,
+                "title": "p62/SQSTM1 by Binding to Vitamin D Receptor Inhibits Hepatic Stellate Cell Activity, Fibrosis, and Liver Cancer.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "49556906": 13
+            }
+          },
+          "noisy": {
+            "AP": 0.1111111111111111,
+            "OOV": [
+              "kiq",
+              "iqa",
+              "qas",
+              "kiqa",
+              "iqas",
+              "qase",
+              "kiqas",
+              "iqase"
+            ],
+            "top5": [
+              {
+                "doc_id": "1800734",
+                "rank": 1,
+                "score": 206.24432396129117,
+                "title": "CXCR2 mediates NADPH oxidase–independent neutrophil extracellular trap formation in cystic fibrosis airway inflammation",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3701541",
+                "rank": 2,
+                "score": 191.63776785078838,
+                "title": "p62/SQSTM1 by Binding to Vitamin D Receptor Inhibits Hepatic Stellate Cell Activity, Fibrosis, and Liver Cancer.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "15381976",
+                "rank": 3,
+                "score": 188.08135765194115,
+                "title": "Morin Attenuates Ovalbumin-Induced Airway Inflammation by Modulating Oxidative Stress-Responsive MAPK Signaling.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "5172048",
+                "rank": 4,
+                "score": 187.17986083509948,
+                "title": "Focal adhesion kinase links mechanical force to skin fibrosis via inflammatory signaling",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "3973445",
+                "rank": 5,
+                "score": 183.8138842358089,
+                "title": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "49556906": 9
+            }
+          }
+        }
+      },
+      "char_nonpositive_hit_overlap": {
+        "doc_id": "1800734",
+        "rank": 1,
+        "shared_char_terms": [
+          "act",
+          "acti",
+          "activ",
+          "amm",
+          "amma",
+          "ammat",
+          "ase",
+          "ases",
+          "ate",
+          "ated",
+          "ati",
+          "atio",
+          "ation",
+          "ativ",
+          "bro",
+          "bros",
+          "brosi",
+          "cti",
+          "ctiv",
+          "ctiva",
+          "eas",
+          "ease",
+          "eases",
+          "ein",
+          "ela",
+          "elat",
+          "elate",
+          "fib",
+          "fibr",
+          "fibro",
+          "fla",
+          "flam",
+          "flamm",
+          "ibr",
+          "ibro",
+          "ibros",
+          "inf",
+          "infl",
+          "infla",
+          "ion",
+          "iva",
+          "ivat",
+          "ivati",
+          "lam",
+          "lamm",
+          "lamma",
+          "lat",
+          "late",
+          "lated",
+          "lun",
+          "lung",
+          "mat",
+          "mati",
+          "matio",
+          "mma",
+          "mmat",
+          "mmati",
+          "nfl",
+          "nfla",
+          "nflam",
+          "osi",
+          "osis",
+          "ote",
+          "otei",
+          "otein",
+          "pro",
+          "prot",
+          "prote",
+          "rea",
+          "rel",
+          "rela",
+          "relat",
+          "ros",
+          "rosi",
+          "rosis",
+          "rot",
+          "rote",
+          "rotei",
+          "ses",
+          "short:in",
+          "sis",
+          "ted",
+          "tei",
+          "tein",
+          "the",
+          "tio",
+          "tion",
+          "tiv",
+          "tiva",
+          "tivat",
+          "ung",
+          "vat",
+          "vati",
+          "vatio"
+        ]
+      }
+    },
+    {
+      "qid": "1266",
+      "group": "stable_or_improved",
+      "variant_id": "test/mixed-rate0.2-seed42/1266",
+      "original": "The risk of breast cancer among parous women increases with placental weight of pregnancies, and this association is strongest for premenopausal breast cancer.",
+      "noisy": "Hte risk of breast cancer among parous women increases with placental weight of pregnancies, and this acssociation is srongest fmr premenopausal breast cancer.",
+      "edits": [
+        {
+          "token_index": 0,
+          "original_token": "The",
+          "modified_token": "Hte",
+          "operation": "transposition",
+          "character_position": 0,
+          "matches_corpus_word": false
+        },
+        {
+          "token_index": 16,
+          "original_token": "association",
+          "modified_token": "acssociation",
+          "operation": "insertion",
+          "character_position": 1,
+          "matches_corpus_word": false
+        },
+        {
+          "token_index": 18,
+          "original_token": "strongest",
+          "modified_token": "srongest",
+          "operation": "deletion",
+          "character_position": 1,
+          "matches_corpus_word": false
+        },
+        {
+          "token_index": 19,
+          "original_token": "for",
+          "modified_token": "fmr",
+          "operation": "substitution",
+          "character_position": 1,
+          "matches_corpus_word": false
+        }
+      ],
+      "relevant_doc_ids": [
+        "37480103"
+      ],
+      "word_AP_change": 0.6666666666666667,
+      "models": {
+        "M2": {
+          "lost_terms": [
+            "association",
+            "for",
+            "strongest",
+            "the"
+          ],
+          "retained_terms": [
+            "among",
+            "and",
+            "breast",
+            "cancer",
+            "increases",
+            "is",
+            "of",
+            "parous",
+            "placental",
+            "pregnancies",
+            "premenopausal",
+            "risk",
+            "this",
+            "weight",
+            "with",
+            "women"
+          ],
+          "added_terms": [],
+          "clean": {
+            "AP": 0.3333333333333333,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "13831842",
+                "rank": 1,
+                "score": 43.960939387704244,
+                "title": "Pooled analysis of prospective cohort studies on height, weight, and breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "13765757",
+                "rank": 2,
+                "score": 43.451853833474495,
+                "title": "Timing of menarche and first full-term birth in relation to breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "37480103",
+                "rank": 3,
+                "score": 43.27372524789819,
+                "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "25973484",
+                "rank": 4,
+                "score": 37.49952060439281,
+                "title": "Breast cancer and obesity: an update.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "32534305",
+                "rank": 5,
+                "score": 34.60471222295877,
+                "title": "Type 2 diabetes and subsequent incidence of breast cancer in the Nurses' Health Study.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "37480103": 3
+            }
+          },
+          "noisy": {
+            "AP": 1.0,
+            "OOV": [
+              "hte",
+              "acssociation",
+              "srongest",
+              "fmr"
+            ],
+            "top5": [
+              {
+                "doc_id": "37480103",
+                "rank": 1,
+                "score": 43.06497811747024,
+                "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "13765757",
+                "rank": 2,
+                "score": 42.974315883668694,
+                "title": "Timing of menarche and first full-term birth in relation to breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "13831842",
+                "rank": 3,
+                "score": 39.8828410347814,
+                "title": "Pooled analysis of prospective cohort studies on height, weight, and breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "25973484",
+                "rank": 4,
+                "score": 37.48940795346216,
+                "title": "Breast cancer and obesity: an update.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "32534305",
+                "rank": 5,
+                "score": 30.022822139076148,
+                "title": "Type 2 diabetes and subsequent incidence of breast cancer in the Nurses' Health Study.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "37480103": 1
+            }
+          }
+        },
+        "M4": {
+          "lost_terms": [
+            "ass",
+            "asso",
+            "assoc",
+            "for",
+            "str",
+            "stro",
+            "stron",
+            "the",
+            "tro",
+            "tron",
+            "trong"
+          ],
+          "retained_terms": [
+            "ace",
+            "acen",
+            "acent",
+            "amo",
+            "amon",
+            "among",
+            "anc",
+            "ance",
+            "ancer",
+            "anci",
+            "ancie",
+            "and",
+            "aro",
+            "arou",
+            "arous",
+            "ase",
+            "ases",
+            "ast",
+            "ati",
+            "atio",
+            "ation",
+            "aus",
+            "ausa",
+            "ausal",
+            "bre",
+            "brea",
+            "breas",
+            "can",
+            "canc",
+            "cance",
+            "cen",
+            "cent",
+            "centa",
+            "cer",
+            "cia",
+            "ciat",
+            "ciati",
+            "cie",
+            "cies",
+            "cre",
+            "crea",
+            "creas",
+            "eas",
+            "ease",
+            "eases",
+            "east",
+            "egn",
+            "egna",
+            "egnan",
+            "eig",
+            "eigh",
+            "eight",
+            "eme",
+            "emen",
+            "emeno",
+            "eno",
+            "enop",
+            "enopa",
+            "ent",
+            "enta",
+            "ental",
+            "est",
+            "ges",
+            "gest",
+            "ght",
+            "gna",
+            "gnan",
+            "gnanc",
+            "his",
+            "iat",
+            "iati",
+            "iatio",
+            "ies",
+            "igh",
+            "ight",
+            "inc",
+            "incr",
+            "incre",
+            "ion",
+            "isk",
+            "ith",
+            "lac",
+            "lace",
+            "lacen",
+            "men",
+            "meno",
+            "menop",
+            "mon",
+            "mong",
+            "nan",
+            "nanc",
+            "nanci",
+            "nce",
+            "ncer",
+            "nci",
+            "ncie",
+            "ncies",
+            "ncr",
+            "ncre",
+            "ncrea",
+            "nge",
+            "nges",
+            "ngest",
+            "nop",
+            "nopa",
+            "nopau",
+            "nta",
+            "ntal",
+            "oci",
+            "ocia",
+            "ociat",
+            "ome",
+            "omen",
+            "ong",
+            "onge",
+            "onges",
+            "opa",
+            "opau",
+            "opaus",
+            "ous",
+            "par",
+            "paro",
+            "parou",
+            "pau",
+            "paus",
+            "pausa",
+            "pla",
+            "plac",
+            "place",
+            "pre",
+            "preg",
+            "pregn",
+            "prem",
+            "preme",
+            "rea",
+            "reas",
+            "rease",
+            "reast",
+            "reg",
+            "regn",
+            "regna",
+            "rem",
+            "reme",
+            "remen",
+            "ris",
+            "risk",
+            "ron",
+            "rong",
+            "ronge",
+            "rou",
+            "rous",
+            "sal",
+            "ses",
+            "short:is",
+            "short:of",
+            "soc",
+            "soci",
+            "socia",
+            "sso",
+            "ssoc",
+            "ssoci",
+            "tal",
+            "thi",
+            "this",
+            "tio",
+            "tion",
+            "usa",
+            "usal",
+            "wei",
+            "weig",
+            "weigh",
+            "wit",
+            "with",
+            "wom",
+            "wome",
+            "women"
+          ],
+          "added_terms": [
+            "acs",
+            "acss",
+            "css",
+            "fmr",
+            "hte",
+            "sro"
+          ],
+          "clean": {
+            "AP": 0.3333333333333333,
+            "OOV": [],
+            "top5": [
+              {
+                "doc_id": "13831842",
+                "rank": 1,
+                "score": 380.9272321779775,
+                "title": "Pooled analysis of prospective cohort studies on height, weight, and breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "13765757",
+                "rank": 2,
+                "score": 375.5666830247295,
+                "title": "Timing of menarche and first full-term birth in relation to breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "37480103",
+                "rank": 3,
+                "score": 368.65688049810154,
+                "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "1428840",
+                "rank": 4,
+                "score": 331.8993947561274,
+                "title": "Case-control study of endogenous steroid hormones and endometrial cancer.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "25973484",
+                "rank": 5,
+                "score": 331.6723252464964,
+                "title": "Breast cancer and obesity: an update.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "37480103": 3
+            }
+          },
+          "noisy": {
+            "AP": 0.5,
+            "OOV": [
+              "csso",
+              "acsso",
+              "cssoc",
+              "sron",
+              "srong"
+            ],
+            "top5": [
+              {
+                "doc_id": "13831842",
+                "rank": 1,
+                "score": 374.49267289869067,
+                "title": "Pooled analysis of prospective cohort studies on height, weight, and breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "37480103",
+                "rank": 2,
+                "score": 360.6309321659084,
+                "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "13765757",
+                "rank": 3,
+                "score": 358.83052606467845,
+                "title": "Timing of menarche and first full-term birth in relation to breast cancer risk.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "25973484",
+                "rank": 4,
+                "score": 323.99256895343575,
+                "title": "Breast cancer and obesity: an update.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "1428840",
+                "rank": 5,
+                "score": 317.7191091234404,
+                "title": "Case-control study of endogenous steroid hormones and endometrial cancer.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "37480103": 2
+            }
+          }
+        }
+      },
+      "char_nonpositive_hit_overlap": {
+        "doc_id": "13831842",
+        "rank": 1,
+        "shared_char_terms": [
+          "amo",
+          "amon",
+          "among",
+          "anc",
+          "ance",
+          "ancer",
+          "and",
+          "ase",
+          "ases",
+          "ast",
+          "ati",
+          "atio",
+          "ation",
+          "aus",
+          "ausa",
+          "ausal",
+          "bre",
+          "brea",
+          "breas",
+          "can",
+          "canc",
+          "cance",
+          "cer",
+          "cia",
+          "ciat",
+          "ciati",
+          "cre",
+          "crea",
+          "creas",
+          "eas",
+          "ease",
+          "east",
+          "eig",
+          "eigh",
+          "eight",
+          "eme",
+          "emen",
+          "emeno",
+          "eno",
+          "enop",
+          "enopa",
+          "ent",
+          "ght",
+          "his",
+          "iat",
+          "iati",
+          "iatio",
+          "ies",
+          "igh",
+          "ight",
+          "inc",
+          "incr",
+          "incre",
+          "ion",
+          "isk",
+          "ith",
+          "men",
+          "meno",
+          "menop",
+          "mon",
+          "mong",
+          "nce",
+          "ncer",
+          "nci",
+          "ncr",
+          "ncre",
+          "ncrea",
+          "nop",
+          "nopa",
+          "nopau",
+          "oci",
+          "ocia",
+          "ociat",
+          "ome",
+          "omen",
+          "ong",
+          "opa",
+          "opau",
+          "opaus",
+          "par",
+          "pau",
+          "paus",
+          "pausa",
+          "pre",
+          "prem",
+          "preme",
+          "rea",
+          "reas",
+          "rease",
+          "reast",
+          "rem",
+          "reme",
+          "remen",
+          "ris",
+          "risk",
+          "sal",
+          "ses",
+          "short:is",
+          "short:of",
+          "soc",
+          "soci",
+          "socia",
+          "sso",
+          "ssoc",
+          "ssoci",
+          "thi",
+          "this",
+          "tio",
+          "tion",
+          "usa",
+          "usal",
+          "wei",
+          "weig",
+          "weigh",
+          "wit",
+          "with",
+          "wom",
+          "wome",
+          "women"
+        ]
+      }
+    },
+    {
+      "qid": "127",
+      "group": "stable_or_improved",
+      "variant_id": "test/mixed-rate0.2-seed42/127",
+      "original": "Arginine 90 in p150n is important for interaction with EB1.",
+      "noisy": "Arginine 90 in p150n is important for intraction with EB1.",
+      "edits": [
+        {
+          "token_index": 7,
+          "original_token": "interaction",
+          "modified_token": "intraction",
+          "operation": "deletion",
+          "character_position": 3,
+          "matches_corpus_word": false
+        }
+      ],
+      "relevant_doc_ids": [
+        "21598000"
+      ],
+      "word_AP_change": 0.5,
+      "models": {
+        "M2": {
+          "lost_terms": [
+            "interaction"
+          ],
+          "retained_terms": [
+            "90",
+            "arginine",
+            "eb1",
+            "for",
+            "important",
+            "in",
+            "is",
+            "with"
+          ],
+          "added_terms": [],
+          "clean": {
+            "AP": 0.5,
+            "OOV": [
+              "p150n"
+            ],
+            "top5": [
+              {
+                "doc_id": "35231675",
+                "rank": 1,
+                "score": 20.156484415535996,
+                "title": "CLIP-170 interacts with dynactin complex and the APC-binding protein EB1 by different mechanisms.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "21598000",
+                "rank": 2,
+                "score": 15.633255276867061,
+                "title": "Structural basis for the activation of microtubule assembly by the EB1 and p150Glued complex.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "293661",
+                "rank": 3,
+                "score": 14.879600964859542,
+                "title": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "18126445",
+                "rank": 4,
+                "score": 14.029408566627664,
+                "title": "Laminin-based cell adhesion anchors microtubule plus ends to the epithelial cell basal cortex through LL5α/β",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "38623601",
+                "rank": 5,
+                "score": 12.22905942410508,
+                "title": "Arginine Starvation Impairs Mitochondrial Respiratory Function in ASS1-Deficient Breast Cancer Cells",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "21598000": 2
+            }
+          },
+          "noisy": {
+            "AP": 1.0,
+            "OOV": [
+              "p150n",
+              "intraction"
+            ],
+            "top5": [
+              {
+                "doc_id": "21598000",
+                "rank": 1,
+                "score": 15.633255276867061,
+                "title": "Structural basis for the activation of microtubule assembly by the EB1 and p150Glued complex.",
+                "positive_qrel": true
+              },
+              {
+                "doc_id": "35231675",
+                "rank": 2,
+                "score": 15.06715955078356,
+                "title": "CLIP-170 interacts with dynactin complex and the APC-binding protein EB1 by different mechanisms.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "293661",
+                "rank": 3,
+                "score": 14.879600964859542,
+                "title": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "38623601",
+                "rank": 4,
+                "score": 12.22905942410508,
+                "title": "Arginine Starvation Impairs Mitochondrial Respiratory Function in ASS1-Deficient Breast Cancer Cells",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "21943141",
+                "rank": 5,
+                "score": 11.24691261296804,
+                "title": "TatC is a specificity determinant for protein secretion via the twin-arginine translocation pathway.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "21598000": 1
+            }
+          }
+        },
+        "M4": {
+          "lost_terms": [
+            "era",
+            "erac",
+            "eract",
+            "inte",
+            "inter",
+            "nte",
+            "nter",
+            "ntera",
+            "ter",
+            "tera",
+            "terac"
+          ],
+          "retained_terms": [
+            "150",
+            "act",
+            "acti",
+            "actio",
+            "ant",
+            "arg",
+            "argi",
+            "argin",
+            "cti",
+            "ctio",
+            "ction",
+            "eb1",
+            "for",
+            "gin",
+            "gini",
+            "ginin",
+            "imp",
+            "impo",
+            "impor",
+            "ine",
+            "ini",
+            "inin",
+            "inine",
+            "int",
+            "ion",
+            "ith",
+            "mpo",
+            "mpor",
+            "mport",
+            "nin",
+            "nine",
+            "ort",
+            "orta",
+            "ortan",
+            "p15",
+            "p150",
+            "por",
+            "port",
+            "porta",
+            "rac",
+            "ract",
+            "racti",
+            "rgi",
+            "rgin",
+            "rgini",
+            "rta",
+            "rtan",
+            "rtant",
+            "short:90",
+            "short:in",
+            "short:is",
+            "tan",
+            "tant",
+            "tio",
+            "tion",
+            "wit",
+            "with"
+          ],
+          "added_terms": [
+            "intr",
+            "intra",
+            "ntr",
+            "ntra",
+            "ntrac",
+            "tra",
+            "trac",
+            "tract"
+          ],
+          "clean": {
+            "AP": 0.043478260869565216,
+            "OOV": [
+              "50n",
+              "150n",
+              "p150n"
+            ],
+            "top5": [
+              {
+                "doc_id": "21943141",
+                "rank": 1,
+                "score": 122.36609448039032,
+                "title": "TatC is a specificity determinant for protein secretion via the twin-arginine translocation pathway.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "293661",
+                "rank": 2,
+                "score": 119.35398255603738,
+                "title": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "10423989",
+                "rank": 3,
+                "score": 106.30146586689925,
+                "title": "A coactivator of pre-mRNA splicing.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "43048059",
+                "rank": 4,
+                "score": 97.93977275446727,
+                "title": "Hydrogen sulfide interacts with nitric oxide in the heart: possible involvement of nitroxyl.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "38623601",
+                "rank": 5,
+                "score": 92.78287209708158,
+                "title": "Arginine Starvation Impairs Mitochondrial Respiratory Function in ASS1-Deficient Breast Cancer Cells",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "21598000": 23
+            }
+          },
+          "noisy": {
+            "AP": 0.03333333333333333,
+            "OOV": [
+              "50n",
+              "150n",
+              "p150n"
+            ],
+            "top5": [
+              {
+                "doc_id": "293661",
+                "rank": 1,
+                "score": 120.40078959218974,
+                "title": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "21943141",
+                "rank": 2,
+                "score": 107.75660051001911,
+                "title": "TatC is a specificity determinant for protein secretion via the twin-arginine translocation pathway.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "43048059",
+                "rank": 3,
+                "score": 97.55619149852545,
+                "title": "Hydrogen sulfide interacts with nitric oxide in the heart: possible involvement of nitroxyl.",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "4406819",
+                "rank": 4,
+                "score": 96.64279640926375,
+                "title": "PAAR-repeat proteins sharpen and diversify the Type VI secretion system spike",
+                "positive_qrel": false
+              },
+              {
+                "doc_id": "32250572",
+                "rank": 5,
+                "score": 94.84631582672283,
+                "title": "The epithelial inward rectifier channel Kir7.1 displays unusual K+ permeation properties.",
+                "positive_qrel": false
+              }
+            ],
+            "relevant_ranks": {
+              "21598000": 30
+            }
+          }
+        }
+      },
+      "char_nonpositive_hit_overlap": {
+        "doc_id": "293661",
+        "rank": 1,
+        "shared_char_terms": [
+          "act",
+          "ant",
+          "arg",
+          "argi",
+          "argin",
+          "cti",
+          "for",
+          "gin",
+          "gini",
+          "ginin",
+          "imp",
+          "impo",
+          "impor",
+          "ine",
+          "ini",
+          "inin",
+          "inine",
+          "int",
+          "ion",
+          "mpo",
+          "mpor",
+          "mport",
+          "nin",
+          "nine",
+          "ort",
+          "orta",
+          "ortan",
+          "por",
+          "port",
+          "porta",
+          "rac",
+          "ract",
+          "rgi",
+          "rgin",
+          "rgini",
+          "rta",
+          "rtan",
+          "rtant",
+          "short:in",
+          "short:is",
+          "tan",
+          "tant",
+          "tio",
+          "tion",
+          "tra",
+          "trac"
+        ]
+      }
+    }
+  ]
+}

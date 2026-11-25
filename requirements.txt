@@ -1,0 +1,14 @@
+# Download SciFact from Hugging Face.
+datasets==5.2.0
+huggingface-hub==2.4.0
+
+# Load experiment configuration.
+PyYAML==6.0.4
+
+# Batch scoring for E0-E4.
+numpy==2.5.5
+matplotlib==3.11.2
+
+# Run the test suite.
+pytest==9.2.0
+ir-measures==0.4.3
